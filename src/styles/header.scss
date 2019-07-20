@@ -2,7 +2,6 @@ nav {
 	background-color: #414141;
 	padding: 3px 0 0;
 	text-align: center;
-	position: relative;
 	height: 130px;
 
 	img {
@@ -12,8 +11,6 @@ nav {
 	div.nav-links {
 		width: 100%;
 		background-color: #FF6A5C;
-		position: absolute;
-		bottom: -12px;
 
 		.burger-menu-border {
 			display: inline-block;
@@ -42,16 +39,11 @@ nav {
 
 		ul {
 			margin: 0;
-			background-color: #FF6A5C;
-			position: absolute;
 			padding-left: 0;
 			padding-bottom: 5px;
-			top: 40px;
-			left: 0;
-			right: 0;
+			background-color: #FF6A5C;
 			display: none;
-			z-index: 1;
-
+			
 			a {
 				text-decoration: none;
 				color: white;
@@ -71,6 +63,32 @@ nav {
 
 			a:active {
 				text-shadow: 1px 1px 3px #000;
+			}
+		}
+	}
+}
+
+/* ========= Media Queries ========= */
+@media screen and (min-width: 318px) {
+	nav img {
+		width: 300px;
+	}
+}
+
+@media screen and (min-width: 625px) {
+	nav div.nav-links {
+		.burger-menu-border {
+			display: none;
+		}
+
+		ul {
+			padding: 2px 0;
+			display: block;
+
+			li {
+				padding: 0;
+				margin: 0 20px;
+				display: inline-block;
 			}
 		}
 	}
