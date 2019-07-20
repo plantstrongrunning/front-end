@@ -6,7 +6,7 @@ function Header() {
       <img className="img-center" src="img/logo-white-transparent.png" alt="Plant Strong Running logo" />
     
       <div className="nav-links">
-        <div id="burger-menu" class="burger-menu-border"><i class="fas fa-bars"></i></div>
+        <div id="burger-menu" className="burger-menu-border"><i className="fas fa-bars"></i></div>
     
         <ul id="nav-links">
           <a href="/"><li>Home</li></a>
