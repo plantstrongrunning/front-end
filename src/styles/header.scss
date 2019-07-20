@@ -1,0 +1,77 @@
+nav {
+	background-color: #414141;
+	padding: 3px 0 0;
+	text-align: center;
+	position: relative;
+	height: 130px;
+
+	img {
+		width: 250px;
+	}
+
+	div.nav-links {
+		width: 100%;
+		background-color: #FF6A5C;
+		position: absolute;
+		bottom: -12px;
+
+		.burger-menu-border {
+			display: inline-block;
+			border: 2px solid #FFF;
+			border-radius: 5px;
+			padding: 4px 10px;
+			box-shadow: 1px 1px 3px #000;
+			cursor: pointer;
+			margin-top: 3px;
+	
+			.fa-bars {
+				display: block;
+				font-size: 20px;
+				text-align: center;
+				color: #FFF;
+			}
+		}
+	
+		.burger-menu-border:hover {
+			box-shadow: 2px 2px 3px #000;
+		}
+		
+		.burger-menu-border:active {
+			box-shadow: 1px 1px 3px #000;
+		}
+
+		ul {
+			margin: 0;
+			background-color: #FF6A5C;
+			position: absolute;
+			padding-left: 0;
+			padding-bottom: 5px;
+			top: 40px;
+			left: 0;
+			right: 0;
+			display: none;
+			z-index: 1;
+
+			a {
+				text-decoration: none;
+				color: white;
+				font-family: Abel;
+				font-size: 1.4em;
+				text-shadow: 1px 1px 3px #000;
+
+				li {
+					list-style-type: none;
+				}
+			}
+
+			a:hover {
+				color: white;
+				text-shadow: 2px 2px 3px #000;
+			}
+
+			a:active {
+				text-shadow: 1px 1px 3px #000;
+			}
+		}
+	}
+}
