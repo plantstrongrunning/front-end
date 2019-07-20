@@ -1,0 +1,35 @@
+@import "variables";
+
+.homepage-iin {
+	background-color: $light-background;
+  padding: 25px 15px 40px;
+  
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: 350px) {
+  .homepage-iin h2 {
+		margin-top: 15px;
+	}
+}
+
+@media screen and (min-width: 450px) {
+	.homepage-iin p {
+		padding-right: 35px;
+		padding-left: 35px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+	.homepage-iin p {
+		font-size: 18px;
+		text-align: center;
+	}
+}
