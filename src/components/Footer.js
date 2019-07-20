@@ -1,8 +1,9 @@
 import React from 'react'
+import '../styles/footer.scss'
 
 function Footer() {
   return (
-    <footer className="container-fluid footer-bgcolor footer">
+    <footer className="container-fluid">
       <div className="row">
         <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
           <p><a className="call-email" href="tel:1-614-467-0421">614&#45;467&#45;0421</a></p>
