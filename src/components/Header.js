@@ -2,7 +2,7 @@ import React from 'react'
 import logo from '../images/logo-white-transparent.png'
 import '../styles/header.scss'
 
-function Header() {
+const Header = () => {
   return (
     <nav className="navigation">
       <img className="img-center" src={logo} alt="Plant Strong Running logo" />

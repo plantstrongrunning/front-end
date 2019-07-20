@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/footer.scss'
 
-function Footer() {
+const Footer = () => {
   return (
     <footer className="container-fluid">
       <div className="row">
