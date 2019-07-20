@@ -1,5 +1,5 @@
 import React from 'react'
-import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
+import { Link, BrowserRouter as Router } from 'react-router-dom'
 import logo from '../images/logo-white-transparent.png'
 import '../styles/header.scss'
 

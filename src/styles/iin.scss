@@ -1,9 +1,14 @@
 @import "variables";
 
 .homepage-iin {
+  margin-top: 500px; /* DELETE LATER */
 	background-color: $light-background;
   padding: 25px 15px 40px;
   
+  h2 {
+    text-align: center;
+  }
+
   img {
     display: block;
     width: 100%;

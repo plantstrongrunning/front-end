@@ -12,7 +12,7 @@ const Footer = () => {
     
         <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
           <p><a href="pages/testimonials.html">Testimonials</a></p>
-          <p><a href="#">Terms and Conditions</a></p>
+          <p><a href="">Terms and Conditions</a></p>
         </div>
     
         <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
