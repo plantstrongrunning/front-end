@@ -11,7 +11,7 @@ const Banner = (props) => {
         <h2>Eat Good. Feel Good. Look Good.</h2>
         <p>Are you ready to eat, feel, and look your best&#63; Let me walk you through the ambiguity of healthy eating and show you how great life can be when you are <em>plant strong</em>.</p>
       
-        <div className="header-buttons desktop">
+        <div className="header-buttons">
           <a className="get-started" href="pages/coaching_programs.html">
             <div><p>Get Started</p></div>
           </a>
