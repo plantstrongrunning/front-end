@@ -1,10 +1,11 @@
 import React from 'react'
+import logo from '../images/logo-white-transparent.png'
 import '../styles/header.scss'
 
 function Header() {
   return (
     <nav className="navigation">
-      <img className="img-center" src="img/logo-white-transparent.png" alt="Plant Strong Running logo" />
+      <img className="img-center" src={logo} alt="Plant Strong Running logo" />
     
       <div className="nav-links">
         <div id="burger-menu" className="burger-menu-border">
