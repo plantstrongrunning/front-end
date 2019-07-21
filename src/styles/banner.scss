@@ -1,0 +1,241 @@
+@import "variables";
+
+header {
+  height: 300px;
+  width: 100%;
+  background-color: $black;
+}
+
+.banner_home {
+  background-image: url(/images/banner-images/steph-homepage-mobile.jpg);
+	padding: 10px 15px;
+	margin-bottom: 250px;
+	background-color: $black;
+	background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+    .header-homepage-content {
+      margin-top: 300px;
+    }
+
+    h1, h2 {
+      font-family: Abel;
+    }
+
+    h1, h2, p {
+      text-align: center;
+    }
+
+    h1 {
+      font-weight: bold;
+      font-size: 24px;
+    }
+
+    h2 {
+      margin-bottom: 15px;
+      font-size: 18px;
+    }
+
+    p {
+      font-size: 16px;
+      margin-left: auto;
+      margin-right: auto;
+
+      em {
+        text-transform: uppercase;
+      }
+    }
+
+    .header-buttons {
+      display: none;
+    }
+}
+
+/* ========= Media Queries ========= */
+@media screen and (min-width: 301px) {
+  .banner_home {
+    margin-bottom: 230px;
+  }
+}
+
+
+@media screen and (min-width: 350px) {
+  .header-homepage-content {
+    h1 {
+      font-size: 32px;
+    }
+
+    h2 {
+      font-size: 24px;
+    }
+
+  }
+}
+
+@media screen and (min-width: 450px) {
+  .header-homepage-content {
+    h1 {
+      font-size: 36px;
+    }
+
+    h2 {
+      font-size: 28px;
+    }
+
+    p {
+      padding-right: 35px;
+      padding-left: 35px;
+    }
+  }
+}
+
+@media screen and (min-width: 535px) {
+  .banner_home {
+    height: 350px;
+
+    .header-homepage-content {
+      margin-top: 350px;
+
+      h1 {
+        font-size: 42px;
+      }
+  
+      h2 {
+        font-size: 34px;
+      }
+  
+      p {
+        padding-right: 35px;
+        padding-left: 35px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 675px) {
+  .banner_home {
+    background-position: center -30px;
+  }
+}
+
+@media screen and (min-width: 724px) {
+  .banner_home {
+    margin-bottom: 200px;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .banner_home {
+    background-image: url(/images/banner-images/steph-homepage-desktop.jpg);
+    background-position: center -35px;
+    height: 400px;
+    margin-bottom: 20px;
+
+    .header-homepage-content {
+      width: 50%;
+      margin-top: 40px;
+      
+      h1, h2, p {
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      h1 {
+        font-size: 32px;
+      }
+
+      h2 {
+        font-size: 24px;
+      }
+
+      .header-buttons {
+        display: block;
+        width: 300px;
+        margin: 25px auto;
+        overflow: auto;
+        padding: 0 4px 10px;
+  
+        a {
+          display: inline-block;
+          border: 1px solid $darkgray;
+          border-radius: 5px;
+          background-color: $darkgray;
+          text-decoration: none;
+  
+          div {
+            border-radius: 5px;
+          }
+  
+          div:hover {
+            border-radius: 5px;
+            box-shadow: 0 0 10px $black;
+          }
+  
+          div:active {
+            border-radius: 5px;
+            box-shadow: none;
+          }
+  
+          p {
+            margin: 0;
+            padding: 5px 25px;
+            color: $white;
+          }
+        }
+
+        .get-started {
+          float: left;
+        }
+  
+        .contact-me {
+          float: right;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .banner_home {
+    height: 500px;
+
+    .header-homepage-content {
+      margin-top: 85px;
+
+      h1, h2, p {
+        max-width: 500px;
+      }
+
+      h1 {
+        font-size: 36px;
+      }
+
+      h2 {
+        font-size: 30px;
+      }
+
+      p {
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+
+// .banner_about {
+//   background-image: url('./images/banner/steph-homepage-mobile.jpg');
+// }
+
+// .banner_coaching-programs {
+//   background-image: url('./images/banner/steph-homepage-mobile.jpg');
+// }
+
+// .banner_blog {
+//   background-image: url('./images/banner/steph-homepage-mobile.jpg');
+// }
+
+// .banner_contact {
+//   background-image: url('./images/banner/steph-homepage-mobile.jpg');
+// }

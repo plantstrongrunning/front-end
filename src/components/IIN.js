@@ -15,7 +15,7 @@ const Iin = () => {
       <p className="margin-top-20px text-center">Passionate about health, wellness, and helping others&#63; Integrative Nutrition fuels your passion and helps you turn it into a career that you will love. Contact me or click on the images below for more information&#33;</p>
 
       <div className="row">
-        {images.map((image) => <IINImage image={image} />)}  
+        {images.map((image, index) => <IINImage image={image} key={index} />)}  
       </div>
     </div>
   );
@@ -23,11 +23,11 @@ const Iin = () => {
 
 const IINImage = (props) => {
   return (
-    <div className="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+    <div key={props.index} className="col-lg-3 col-md-3 col-sm-6 col-xs-6">
       <a href={props.image.href}>
         <img src={props.image.src} alt={props.image.alt} />
       </a>
-  </div>
+    </div>
   )
 }
 
