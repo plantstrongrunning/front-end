@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import '../styles/banner.scss'
 
 const Banner = (props) => {
@@ -12,13 +13,13 @@ const Banner = (props) => {
         <p>Are you ready to eat, feel, and look your best&#63; Let me walk you through the ambiguity of healthy eating and show you how great life can be when you are <em>plant strong</em>.</p>
       
         <div className="header-buttons">
-          <a className="get-started" href="pages/coaching_programs.html">
+          <Link className="get-started" Path="/">
             <div><p>Get Started</p></div>
-          </a>
+          </Link>
       
-          <a className="contact-me" href="pages/contact.html">    
+          <Link className="contact-me" Path="/">    
             <div><p>Contact Me</p></div>  
-          </a>
+          </Link>
         </div>
       </div>
     }

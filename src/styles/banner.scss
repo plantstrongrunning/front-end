@@ -9,7 +9,7 @@ header {
 .banner_home {
   background-image: url(/images/banner-images/steph-homepage-mobile.jpg);
 	padding: 10px 15px;
-	margin-bottom: 20px;
+	margin-bottom: 250px;
 	background-color: $black;
 	background-size: cover;
   background-repeat: no-repeat;
@@ -38,6 +38,7 @@ header {
     }
 
     p {
+      font-size: 16px;
       margin-left: auto;
       margin-right: auto;
 
@@ -52,6 +53,13 @@ header {
 }
 
 /* ========= Media Queries ========= */
+@media screen and (min-width: 301px) {
+  .banner_home {
+    margin-bottom: 230px;
+  }
+}
+
+
 @media screen and (min-width: 350px) {
   .header-homepage-content {
     h1 {
@@ -111,11 +119,18 @@ header {
   }
 }
 
+@media screen and (min-width: 724px) {
+  .banner_home {
+    margin-bottom: 200px;
+  }
+}
+
 @media screen and (min-width: 767px) {
   .banner_home {
     background-image: url(/images/banner-images/steph-homepage-desktop.jpg);
     background-position: center -35px;
     height: 400px;
+    margin-bottom: 20px;
 
     .header-homepage-content {
       width: 50%;
